@@ -1,0 +1,93 @@
+*{
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#0b0ebadb;
+}
+
+body{
+    background: url(imagens/folha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+h1{
+    color: red;
+    text-decoration: underline;
+}
+
+th{
+    color: red;
+}
+
+td {
+    color:#0b0ebadb;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+form{
+    display: flex;
+}
+
+form button{
+    background-image: none;
+    background-color: #2bfd2f;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form button:hover {
+    background-color: #95ff87;
+}
+
+form input {
+    font-size: 24px;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid ;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(red);
+}
